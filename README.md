@@ -5,7 +5,7 @@ docker build --build-arg CONFIG_NAME=my-config.xml -t ru.xsires/docker-image:1.0
 work correctly
 
 ``
-./gradlew docker
+./gradlew docker -d
 ``
 
 fail with
